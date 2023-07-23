@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+}
+
+table {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.white {
+  background-color: #fefaf2;
+  width: 50px;
+  height: 50px;
+}
+
+.black {
+  background-color: #310a00;
+  width: 50px;
+  height: 50px;
+}
+
+.numbers {
+  background-color: #310a00;
+  color: white;
+  text-align: center;
+  font-size: 10px;
+  font-weight: bolder;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  padding: 5px;
+}
+
+.Alphabets {
+  background-color: #310a00;
+  color: white;
+  text-align: center;
+  font-size: 10px;
+  font-weight: bolder;
+  padding: 5px;
+}
+
+.Alphabets td {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.border-top td {
+  border-top: 0px;
+}
+
+.border-bottom td {
+  border-bottom: 0px;
+}
+
+.border-left {
+  border-left: 0px;
+}
+
+.border-right {
+  border-right: 0px;
+}
