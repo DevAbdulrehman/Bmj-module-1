@@ -1,15 +1,15 @@
 .Name {
-    color: blue;
+  color: blue;
 }
 
 .Hex {
-color: #54ff00;
+  color: #54ff00;
 }
 
 .RGB {
-    color: rgb(136, 78, 98);
+  color: rgb(136, 78, 98);
 }
 
 .HSL {
-    color: hsl(290, 70%, 50%);
+  color: hsl(290, 70%, 50%);
 }
