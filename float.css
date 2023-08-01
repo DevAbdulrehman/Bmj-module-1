@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: green;
+    padding: 10px;
+}
+
+img {
+    border-radius: 150px;
+    height: 60px;
+    width: 60px;
+    position: relative;
+    top: 0px;
+
+}
+
+ul {
+    list-style-type: none;
+    color: white;
+    float: right;
+    display: inline;
+    position: relative;
+    top: 12px;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    position: relative;
+    right: 100px;
+    margin: 0 20px;
+}
