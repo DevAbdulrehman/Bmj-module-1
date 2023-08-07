@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-card {
+    /* border: 1px solid red; */
+    background-color: aliceblue;
+    width: 50vw;
+    margin: auto;
+    margin-top: 15%;
+    height: 300px;
+}
+
+.child {
+    border: 1 px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 250px;
+    border: 1px solid black;
+}
