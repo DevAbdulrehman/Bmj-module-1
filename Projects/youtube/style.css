@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    height: 70px;
+    /* z-index: 999; */
+    border: 3px solid white;
+}
+
+
+.yt-logo {
+    width: 150px;
+}
+
+.search-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    /* margin-right: 40px; */
+    /* border: 2px solid white; */
+}
+
+.search-bar {
+    display: flex;
+    width: 500px;
+    background-color: #191919;
+    color: white;
+    padding: 10px 6px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1px solid gray;
+}
+
+.search-icon {
+    background-color: #262626;
+    font-size: 20px;
+    /* font-weight: 100px; */
+    padding:7.5px 20px;
+    color: white;
+    border: 1px solid gray;
+    border-left: 0px;
+    border-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    text-align: center;
+}
+
+.microphone {
+    color: #ffffff;
+    background-color: #262626;
+    margin-left: 20px;
+    margin-right: 150px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+
+.container {
+    display: flex;
+    border: 2px solid red;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 96vw;
+    margin: auto;
+}
+
+.vid-card {
+    width: 400px;
+    border: 1px solid yellow;
+}
+
+
+video {
+    width: 100%;
+    border-radius: 8px;
+    height: auto;
+    border: 4px solid blue;
+}
+
+
+.row-1 {
+    margin-bottom : 30px; 
+}
+
+
+
+.news-train {
+    /* width: 30%; */
+}
+
+.news-arrest {
+    /* width: 30%; */
+
+}
+
+.space-vid {
+    /* width: 30%; */
+}
+
+
+.mrbeast-vid {
+    /* width: 30%; */
+}
+
+
+.karachi-vynz-vid {
+    /* width: 30%; */
+}
+
+.apndacollege-vid {
+    /* width: 30%; */
+}
+
+h4 {
+    margin-top: 3px;
+    color: white;
+    margin-left: 5px;
+    /* border: 3px solid green; */
+}
+
+.vid-title {
+    width: 100%;
+    /* border: 2px solid saddlebrown; */
+}
+
+
+.title-first-row {
+    display: flex;
+    align-items: start;
+    margin-top: 7px;
+    border: 4px solid bisque;
+}
+.channel-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+}
+
+
+h4 {
+    margin-top: 3px;
+    color: white;
+    margin-left: 5px;
+    /* border: 3px solid green; */
+}
+
+
+
+p {
+    /* margin-top: 5px; */
+    margin-bottom: 0px;
+    margin-left: 40px;
+    color: gray;
+    /* font-size: smaller; */
+    font-weight: 100;
+}
+
+ sup {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 0px;
+
+}
+
