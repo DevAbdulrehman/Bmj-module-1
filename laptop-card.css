@@ -4,23 +4,61 @@
     box-sizing: border-box;
 }
 
-.main-card {
-    /* border: 1px solid red; */
-    background-color: aliceblue;
-    width: 50vw;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Work+Sans:wght@300&display=swap');
+
+.parent-card {
+    display: flex;
+    width: 90vw;
     margin: auto;
-    margin-top: 15%;
-    height: 300px;
+    border: 2px solid black;
 }
 
 .child {
-    border: 1 px solid blue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    border: 2px solid red;
 }
 
-img {
-    width: 250px;
-    border: 1px solid black;
+.laptop-image {
+    /* border: 2px solid green; */
+    width: 620px;
+}
+
+
+
+.image {
+    width: 100%;
+}
+
+.info {
+    width: 620px;
+}
+
+.heading {
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.heading-child {
+    color: black;
+    font-weight: 100;
+    font-size: 24px;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.brand {
+    font-size: 15px;
+    color: rgb(83, 83, 83);
+}
+
+.brand-link {
+    text-decoration: none;
+}
+
+.brand-link:hover {
+    color: rgb(19, 18, 18);
 }

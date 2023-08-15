@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar using display: inline */
+/* 
+.navbar {
+  background-color: green;
+}
+
+img {
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+}
+li {
+  display: inline;
+} */
+
+/* Navbar using flexbox */
+
+/* .navbar {
+  display: flex;
+  background-color: green;
+  padding: 20px;
+}
+
+img {
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+}
+a {
+    color: white;
+}
+
+ul {
+  margin-left: 750px;
+  margin-top: 10px;
+}
+
+li {
+  display: inline;
+  color: white;
+  padding: 10px;
+  font-size: 30px;
+  font-weight: bolder;
+  margin-left: 10px;
+} */
+
+/* Navbar using float */
+/*  
+.navbar {
+    background-color: green;
+    padding: 10px;
+}
+
+img {
+    border-radius: 150px;
+    height: 60px;
+    width: 60px;
+
+}
+
+ul {
+    list-style: none;
+    color: white;
+    float: right;
+    margin-top: 13px;
+    margin-right: 100px;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 0 20px;
+}
+ */
+
