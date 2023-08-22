@@ -46,7 +46,7 @@
         background-color: green;
     }
 
-    .nav-items-responsive {
+    .dropdown-parent {
       display: none;
     }
 
@@ -57,8 +57,10 @@
       padding: 0  ;
     }
 
-    i:hover .dropdown-parents {
+    i:hover .dropdown-parent {
       display: block;
+      width: 100%;
+      background-color: grey;
     }
 
 

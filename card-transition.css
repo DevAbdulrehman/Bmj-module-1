@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    width: 300px;
+    height: 400px;
+    background: linear-gradient(rgba(128, 0, 128, 0.459),rgba(128, 0, 128, 0.178) ),url(/andreas-weilguny-AREuRnP9-d0-unsplash.jpg);
+    background-size: cover;
+}
+
+.card-info {
+    border: 3px solid green;
+    width: 250px;
+    position: relative;
+    top: 30px;
+}
+
+p {
+
+}
+
+h2 {
+
+}
