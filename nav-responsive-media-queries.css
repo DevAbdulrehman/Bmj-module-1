@@ -5,7 +5,7 @@
 }
 
 .navbar {
-  /* display: flex; */
+   display: flex; 
   background-color: green;
   padding: 20px;
   justify-content: center;
@@ -15,13 +15,13 @@
   display: none;
 }
 
-a {
+.main-links {
     color: white;
     text-decoration: none;
 }
 
 
-li {
+.main-items {
   display: inline;
   color: white;
   padding: 10px;
@@ -31,12 +31,37 @@ li {
 }
 
 @media only screen and (max-width:600px) {
-  .main-nav {
+  .navbar {
     display: none;
   }
 
+  .navbar-responsive {
+    background-color: green;
+    width: 0;
+  }
+
     .fa-sharp {
+      margin-left: 20px;
         display: block;
+        background-color: green;
     }
+
+    .nav-items-responsive {
+      display: none;
+    }
+
+    .responsive-items {
+      display: block;
+      color: black;
+      font-size: 10px;
+      padding: 0  ;
+    }
+
+    i:hover .dropdown-parents {
+      display: block;
+    }
+
+
+
 }
 
