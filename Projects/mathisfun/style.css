@@ -4,9 +4,17 @@
     box-sizing: border-box;
 }
 
+.parent-container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/hdr-main-lite.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr ;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     column-gap: 10px;
     row-gap: 5px;
@@ -20,12 +28,13 @@
     width: 700px;
     height: 390px;
     background-color: #e6ecff;
+    opacity: 0.7;
 }
 
 .child {
-    /* background: linear-gradient(#f9f8ff, #e7e1ff); */
-    background: linear-gradient(to bottom, #feffff 0%, #d6dbff 100%);
-    box-shadow: 1px 1px 10px  black;
+    background: linear-gradient(#f9f8ff, #e7e1ff);
+    /* background: linear-gradient(to bottom, #feffff 0%, #d6dbff 100%); */
+    box-shadow: 1px 1px 3px  black;
     border: 1px solid #aaa;
     border-radius: 4px;
     text-align: right;
@@ -35,17 +44,23 @@
     text-shadow: 1px 1px 0px #fff;
     cursor: pointer;
     padding: 5px;
+    background-repeat: no-repeat;
+    position: relative;
     }
 
     .last-row {
-        grid-column: span 4;
+        grid-column: span 3;
         display: flex;
         justify-content: center;
+        background: none;
+        border: 0px ;
+        box-shadow: none;
+        cursor: default;
     }
 
     .child13,.child14 {
         background: linear-gradient(to bottom, #feffff 0%, #d6dbff 100%);
-        box-shadow: 1px 1px 10px  black;
+        box-shadow: 1px 1px 3px  black;
         border: 1px solid #aaa;
         border-radius: 4px;
         text-align: right;
@@ -55,4 +70,37 @@
         text-shadow: 1px 1px 0px #fff;
         cursor: pointer;
         padding: 5px;
+        width: 199px;
+        position: relative;
+    }
+
+    .child13 {
+        margin-right: 10px;
+    }
+
+    .child:hover {
+        background: linear-gradient(#fdfd9f , #fffce7 );
+    }
+
+    .last-row:hover {
+        background: none;
+    }
+
+    .child13:hover{
+        background: linear-gradient(#fdfd9f , #fffce7 );
+    }
+
+    .child14:hover {
+        background: linear-gradient(#fdfd9f , #fffce7 );
+    }
+
+    img {
+        position: absolute;
+        left: 1px;
+    }
+
+    @media only  screen and (max-width: 690px) {
+        img {
+            display: none;
+        }
     }
