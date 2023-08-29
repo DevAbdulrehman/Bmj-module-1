@@ -6,7 +6,7 @@
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     column-gap: 10px;
     row-gap: 5px;
@@ -35,4 +35,24 @@
     text-shadow: 1px 1px 0px #fff;
     cursor: pointer;
     padding: 5px;
+    }
+
+    .last-row {
+        grid-column: span 4;
+        display: flex;
+        justify-content: center;
+    }
+
+    .child13,.child14 {
+        background: linear-gradient(to bottom, #feffff 0%, #d6dbff 100%);
+        box-shadow: 1px 1px 10px  black;
+        border: 1px solid #aaa;
+        border-radius: 4px;
+        text-align: right;
+        font-size: 18px;
+        font-weight: normal;
+        color: #333;
+        text-shadow: 1px 1px 0px #fff;
+        cursor: pointer;
+        padding: 5px;
     }
