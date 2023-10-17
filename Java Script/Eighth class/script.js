@@ -48,11 +48,27 @@
 let users = [];
 
 function register() {
-     users.push({
+     users.push(users=[ {
           name:prompt("Enter your name"),
           age:prompt("Enter your age"),
           email:prompt("Enter your email"),
-          pass:prompt("Enter your password")
-       })
+          pass:prompt("Enter your password"),
+          id:prompt("Make your id")
+     }]) 
      console.log(users)
+}
+
+function login(){
+     let login_id = prompt("Enter your Id")
+     for (let i=0; i<users.length; i++){
+          if (login_id==users[i].id){
+               console.log ("User found and allowed")
+          }
+
+          else {
+               console.log("Please enter the correct id")
+          }
+
+
+     }
 }
