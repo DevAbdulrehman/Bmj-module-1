@@ -44,16 +44,12 @@ function slice_method() {
     let result=user.slice(0,20)
 
     document.write(result)
-
-<<<<<<< HEAD
     if (user.length<=20){
-        document.write(`You can write ${user.length[-20]} words more `)
-=======
+        document.write(`You can write ${user.length[-20]} words more `)}
     if(result==user){
         let result=user
 
         document.write()
->>>>>>> 30ea37ece510bbbdb291942ba89e92574417064e
     }
 
 }
