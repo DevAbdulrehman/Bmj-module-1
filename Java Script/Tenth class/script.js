@@ -78,3 +78,8 @@
 //     })
 //     console.log(names)
 // }
+
+function myFunction(){
+  let  liveText= document.getElementById("live").value;
+  document.getElementById("show").innerText=liveText;
+}
